@@ -2,4 +2,19 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <!-- light theme -->
+    <color name="light_main">#11151C</color>
+    <color name="light_secondary">#11181C</color>
+    <color name="light_accent">#F5F9FE</color>
+
+    <!-- dark theme -->
+    <color name="dark_main">#11151C</color>
+    <color name="dark_secondary">#F5F9FE</color>
+    <color name="dark_accent">#11181C</color>
+
+
+    <color name="possible_accent">#2892D7</color>
+    <color name="possible_accent_2">#A5CC6B</color>
 </resources>
