@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Showcase</string>
+    <string name="profile_full_name_template">%s %s</string>
     <string name="profile_photo">Profile photo</string>
     <string name="contact">Contact</string>
 </resources>
