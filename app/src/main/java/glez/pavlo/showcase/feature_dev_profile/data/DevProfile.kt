@@ -1,7 +1,11 @@
 package glez.pavlo.showcase.feature_dev_profile.data
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "dev_profile")
 data class DevProfile(
-    val name: String,
+    @PrimaryKey val name: String,
     val lastNames: String,
     val latestProject: String,
     val description: String,

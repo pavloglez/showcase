@@ -23,9 +23,4 @@ class DevProfileViewModel @Inject constructor(private val useCases: UseCases) : 
     private fun getDevProfile() = viewModelScope.launch {
         _devProfileResponse.value = useCases.getDevProfile()
     }
-
-    private fun storetoDB() = viewModelScope.launch {
-        //_devProfileResponse.value = useCases.storetoDB()
-    }
-
 }
