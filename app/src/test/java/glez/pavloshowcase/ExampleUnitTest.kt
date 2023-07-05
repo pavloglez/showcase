@@ -1,4 +1,4 @@
-package glez.pavloshowcase
+package glez.pavlo.showcase
 
 import org.junit.Test
 

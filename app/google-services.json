@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "287646794390",
+    "project_id": "showcase-e1a67",
+    "storage_bucket": "showcase-e1a67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287646794390:android:b21ae710cd244526c6b8b7",
+        "android_client_info": {
+          "package_name": "glez.pavlo.showcase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287646794390-t7g25qc022hka528lesi74r7pd0soipk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "glez.pavlo.showcase",
+            "certificate_hash": "33b215a5629c0781cc30849ac5b0124b2a03e9de"
+          }
+        },
+        {
+          "client_id": "287646794390-b7gaiqfv48hs0qgbjh3p7pm01na6jjgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXNXZ8lHrQjr-plQ0gZecooLNpD66TDog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287646794390-b7gaiqfv48hs0qgbjh3p7pm01na6jjgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,7 +2,7 @@ package glez.pavlo.showcase
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import glez.pavloshowcase.databinding.ActivityMainBinding
+import glez.pavlo.showcase.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

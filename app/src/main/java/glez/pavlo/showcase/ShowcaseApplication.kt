@@ -1,4 +1,4 @@
-package glez.pavloshowcase
+package glez.pavlo.showcase
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
