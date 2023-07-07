@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import glez.pavlo.showcase.R
 import glez.pavlo.showcase.databinding.TechListItemBinding
-import glez.pavlo.showcase.feature_dev_profile.data.Tech
+import glez.pavlo.showcase.feature_tech_stack.data.Tech
 
 class TechStackAdapter : ListAdapter<Tech, TechViewHolder>(TechItemDiffCallback()) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TechViewHolder {

@@ -7,8 +7,8 @@ import glez.pavlo.showcase.feature_tech_stack.domain.repository.TechStackRespons
 import glez.pavlo.showcase.core.model.Result
 import glez.pavlo.showcase.core.model.Result.Failure
 import glez.pavlo.showcase.core.model.Result.Success
-import glez.pavlo.showcase.feature_dev_profile.data.Tech
 import glez.pavlo.showcase.feature_dev_profile.data.toTech
+import glez.pavlo.showcase.feature_tech_stack.data.Tech
 import glez.pavlo.showcase.feature_tech_stack.data.remote.RemoteTech
 import kotlinx.coroutines.tasks.await
 import java.lang.Exception

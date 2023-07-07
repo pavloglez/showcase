@@ -1,7 +1,7 @@
 package glez.pavlo.showcase.feature_tech_stack.domain.repository
 
 import glez.pavlo.showcase.core.model.Result
-import glez.pavlo.showcase.feature_dev_profile.data.Tech
+import glez.pavlo.showcase.feature_tech_stack.data.Tech
 
 
 typealias TechStackResponse = Result<List<Tech>>
