@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_nav"
+    app:startDestination="@id/techUsedFragment">
+
+    <fragment
+        android:id="@+id/techUsedFragment"
+        android:name="glez.pavlo.showcase.core.presentation.bottomFragments.TechUsedFragment"
+        android:label="TechUsedFragment" />
+    <fragment
+        android:id="@+id/skillsFragment"
+        android:name="glez.pavlo.showcase.core.presentation.bottomFragments.SkillsFragment"
+        android:label="SkillsFragment" />
+    <fragment
+        android:id="@+id/hobbiesFragment"
+        android:name="glez.pavlo.showcase.core.presentation.bottomFragments.HobbiesFragment"
+        android:label="HobbiesFragment" />
+</navigation>

@@ -1,4 +1,4 @@
-package glez.pavlo.showcase.feature_dev_profile.domain.model
+package glez.pavlo.showcase.core.model
 
 sealed class Result<out T> {
     object Loading : Result<Nothing>()

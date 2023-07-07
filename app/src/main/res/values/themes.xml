@@ -5,6 +5,8 @@
         <item name="colorPrimary">@color/light_main</item>
         <item name="colorSecondary">@color/light_secondary</item>
         <item name="colorAccent">@color/light_accent</item>
+        <item name="android:statusBarColor">?attr/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 
     <style name="Theme.Showcase" parent="Base.Theme.Showcase" />

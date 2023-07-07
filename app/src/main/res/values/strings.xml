@@ -3,4 +3,9 @@
     <string name="profile_full_name_template">%s %s</string>
     <string name="profile_photo">Profile photo</string>
     <string name="contact">Contact</string>
+    <string name="tech_used">Tech Used</string>
+    <string name="skills">Skills</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="tech_stack_in_this_app">Tech stack in this app:</string>
+    <string name="suggest_tech_button">Suggest new tech</string>
 </resources>

@@ -5,5 +5,6 @@
         <item name="colorPrimary">@color/dark_main</item>
         <item name="colorSecondary">@color/dark_secondary</item>
         <item name="colorAccent">@color/dark_accent</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
     </style>
 </resources>

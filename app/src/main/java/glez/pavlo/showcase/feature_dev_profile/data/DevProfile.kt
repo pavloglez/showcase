@@ -12,3 +12,9 @@ data class DevProfile(
     val role: String,
     val profilePhotoUrl: String
 )
+
+@Entity(tableName = "tech_stack")
+data class Tech(
+    @PrimaryKey val name: String,
+    val isImplemented: Boolean
+)

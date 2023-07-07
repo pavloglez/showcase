@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/techUsedFragment"
+        android:title="@string/tech_used"
+        android:icon="@drawable/ic_tech" />
+    <item android:id="@+id/skillsFragment"
+        android:title="@string/skills"
+        android:icon="@drawable/ic_skills" />
+    <item android:id="@+id/hobbiesFragment"
+        android:title="@string/hobbies"
+        android:icon="@drawable/ic_hobbies" />
+</menu>

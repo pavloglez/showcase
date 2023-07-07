@@ -10,12 +10,13 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import glez.pavlo.showcase.core.Constants.DEV_PROFILE
+import glez.pavlo.showcase.core.Constants.DEV_PROFILE_REF
 import glez.pavlo.showcase.feature_dev_profile.data.local.DevProfileDB
 import glez.pavlo.showcase.feature_dev_profile.data.local.DevProfileDao
 import glez.pavlo.showcase.feature_dev_profile.data.repository.DevProfileRepositoryImpl
 import glez.pavlo.showcase.feature_dev_profile.domain.repository.DevProfileRepository
 import glez.pavlo.showcase.feature_dev_profile.domain.use_case.GetDevProfile
+import glez.pavlo.showcase.feature_dev_profile.domain.use_case.GetLocalDevProfile
 import glez.pavlo.showcase.feature_dev_profile.domain.use_case.UseCases
 import javax.inject.Singleton
 
@@ -37,7 +38,7 @@ object DataModule {
     fun provideDevProfileDao(database: DevProfileDB) = database.devProfileDao()
 
     @Provides
-    fun provideDevProfileRef() = Firebase.firestore.collection(DEV_PROFILE)
+    fun provideDevProfileRef() = Firebase.firestore.collection(DEV_PROFILE_REF)
 
     @Provides
     fun provideDevProfileRepository(
@@ -49,6 +50,7 @@ object DataModule {
     fun provideUseCases(
         repo: DevProfileRepository
     ) = UseCases(
-        getDevProfile = GetDevProfile(repo)
+        getDevProfile = GetDevProfile(repo),
+        getLocalDevProfile = GetLocalDevProfile(repo)
     )
 }

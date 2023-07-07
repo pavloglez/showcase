@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import androidx.lifecycle.viewModelScope
+import glez.pavlo.showcase.core.model.Result
 import glez.pavlo.showcase.feature_dev_profile.domain.repository.DevProfileResponse
 import glez.pavlo.showcase.feature_dev_profile.domain.use_case.UseCases
 import kotlinx.coroutines.launch
@@ -17,10 +18,17 @@ class DevProfileViewModel @Inject constructor(private val useCases: UseCases) : 
     val devProfileResponse: LiveData<DevProfileResponse> = _devProfileResponse
 
     init {
-        getDevProfile()
+        getLocalDevProfile()
     }
 
     private fun getDevProfile() = viewModelScope.launch {
         _devProfileResponse.value = useCases.getDevProfile()
+    }
+
+    private fun getLocalDevProfile() = viewModelScope.launch {
+        _devProfileResponse.value = useCases.getLocalDevProfile()
+        if (devProfileResponse.value !is Result.Success) {
+            getDevProfile()
+        }
     }
 }
