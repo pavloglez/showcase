@@ -24,16 +24,19 @@ class TechUsedFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        initViews()
         doObserveWork()
+    }
+
+    private fun initViews() {
+        binding.techRecyclerView.run {
+            adapter = techAdapter
+            layoutManager = GridLayoutManager(requireContext(), 2)
+        }
     }
 
     private fun doObserveWork() {
         viewModel.techStackResponse.observe(viewLifecycleOwner) { techStackResponse ->
-            binding.techRecyclerView.adapter = techAdapter
-            binding.techRecyclerView.run {
-                adapter = techAdapter
-                layoutManager = GridLayoutManager(requireContext(), 2)
-            }
             when (techStackResponse) {
                 is Result.Loading -> {
                     binding.swipeRefreshLayout.isRefreshing = true

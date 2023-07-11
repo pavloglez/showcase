@@ -12,3 +12,9 @@ data class DevProfile(
     val role: String,
     val profilePhotoUrl: String
 )
+
+@Entity(tableName = "skills")
+data class Skill(
+    @PrimaryKey val name: String,
+    val strength: Int,
+)

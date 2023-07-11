@@ -8,4 +8,5 @@
     <string name="hobbies">Hobbies</string>
     <string name="tech_stack_in_this_app">Tech stack in this app:</string>
     <string name="suggest_tech_button">Suggest new tech</string>
+    <string name="current_skills_progress">Current skills progress</string>
 </resources>
