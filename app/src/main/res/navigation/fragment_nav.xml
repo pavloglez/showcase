@@ -14,6 +14,6 @@
         android:label="SkillsFragment" />
     <fragment
         android:id="@+id/hobbiesFragment"
-        android:name="glez.pavlo.showcase.core.presentation.bottomFragments.HobbiesFragment"
+        android:name="glez.pavlo.showcase.core.presentation.bottomFragments.JokesFragment"
         android:label="HobbiesFragment" />
 </navigation>

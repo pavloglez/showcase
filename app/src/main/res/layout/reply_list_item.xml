@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingVertical="10dp"
+    android:paddingStart="15dp"
+    android:paddingEnd="10dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/joke_reply_background"
+        android:padding="10dp"
+        android:textColor="?android:colorAccent"
+        tools:text="There are 10 kinds of people in the world. Those who understand binary and those who don’t."/>
+
+</LinearLayout>
