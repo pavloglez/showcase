@@ -13,7 +13,11 @@
         android:name="glez.pavlo.showcase.core.presentation.bottomFragments.SkillsFragment"
         android:label="SkillsFragment" />
     <fragment
-        android:id="@+id/hobbiesFragment"
+        android:id="@+id/jokesFragment"
         android:name="glez.pavlo.showcase.core.presentation.bottomFragments.JokesFragment"
-        android:label="HobbiesFragment" />
+        android:label="JokesFragment">
+        <argument
+            android:name="devPhotoUrl"
+            app:argType="string" />
+    </fragment>
 </navigation>

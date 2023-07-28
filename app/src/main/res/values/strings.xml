@@ -5,8 +5,9 @@
     <string name="contact">Contact</string>
     <string name="tech_used">Tech Used</string>
     <string name="skills">Skills</string>
-    <string name="hobbies">Hobbies</string>
+    <string name="jokes">Jokes</string>
     <string name="tech_stack_in_this_app">Tech stack in this app:</string>
     <string name="suggest_tech_button">Suggest new tech</string>
     <string name="current_skills_progress">Current skills progress</string>
+    <string name="reply_joke_button">Reply joke button</string>
 </resources>

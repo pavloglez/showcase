@@ -8,10 +8,8 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.GridLayoutManager
 import dagger.hilt.android.AndroidEntryPoint
-import glez.pavlo.showcase.R
 import glez.pavlo.showcase.core.model.Result
 import glez.pavlo.showcase.databinding.FragmentTechBinding
-import glez.pavlo.showcase.feature_tech_stack.domain.repository.TechStackResponse
 import glez.pavlo.showcase.feature_tech_stack.presentation.TechStackViewModel
 import glez.pavlo.showcase.feature_tech_stack.presentation.utils.TechStackAdapter
 

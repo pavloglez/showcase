@@ -6,7 +6,7 @@
     <item android:id="@+id/skillsFragment"
         android:title="@string/skills"
         android:icon="@drawable/ic_skills" />
-    <item android:id="@+id/hobbiesFragment"
-        android:title="@string/hobbies"
-        android:icon="@drawable/ic_hobbies" />
+    <item android:id="@+id/jokesFragment"
+        android:title="@string/jokes"
+        android:icon="@drawable/ic_jokes" />
 </menu>
